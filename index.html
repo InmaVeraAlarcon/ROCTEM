@@ -133,14 +133,22 @@
     </section>
 
     <section id="contacto">
-      <h2>Contacto</h2>
-      <p>Para más información, colaboraciones o consultas, por favor escribe a:</p>
-      <p><strong>Email:</strong> contacto@roctem.com</p>
-      <p><strong>Redes sociales:</strong> Próximamente</p>
-    </section>
+  <h2>Contacto</h2>
+  <p>Para más información, colaboraciones o consultas, por favor usa el siguiente formulario:</p>
+
+  <form action="https://formspree.io/f/xwpodpvr" method="POST">
+    <label for="name">Nombre:</label><br />
+    <input type="text" id="name" name="name" required /><br /><br />
+
+    <label for="email">Correo electrónico:</label><br />
+    <input type="email" id="email" name="_replyto" required /><br /><br />
+
+    <label for="message">Mensaje:</label><br />
+    <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+    <button type="submit">Enviar</button>
+  </form>
+</section>
   </main>
-  <footer>
-    <p>&copy; 2025 ROCTEM. Todos los derechos reservados. Desarrollado por Dra. Inmaculada [Tu Apellido]</p>
-  </footer>
 </body>
 </html>
